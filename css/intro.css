@@ -1,0 +1,14 @@
+.intro {
+  font-family: 'IzhitsaRegular';
+  background-image: url('../public/intro.png');
+  text-align: center;
+  background-size: cover;
+  width: auto;
+  height: 250px;
+  padding: 3%;
+}
+
+.intro h1,
+h2 {
+  margin: 1%;
+}

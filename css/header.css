@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  clear: both;
+  background-color: rgb(111, 105, 74);
+}
+
+.header-nav {
+  vertical-align: baseline;
+  text-align: center;
+  line-height: 36px;
+}
+
+.header-nav-item {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  display: inline-block;
+}
+
+.header-nav-link {
+  text-decoration: none;
+  color: rgb(4, 4, 4);
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  .header-nav-item {
+    display: table-cell;
+  }
+}
