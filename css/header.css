@@ -1,13 +1,25 @@
 .header {
   width: 100%;
+  height: 75px;
   clear: both;
   background-color: rgb(111, 105, 74);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .header-nav {
-  vertical-align: baseline;
-  text-align: center;
-  line-height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1%;
+  width: 100%;
+}
+
+.header-nav-ul-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header-nav-item {
@@ -18,13 +30,14 @@
 }
 
 .header-nav-link {
+  font-size: large;
   text-decoration: none;
   color: rgb(4, 4, 4);
   font-weight: bold;
 }
 
 @media (max-width: 640px) {
-  .header-nav-item {
-    display: table-cell;
+  .header-nav-ul-block {
+    flex-direction: column;
   }
 }
