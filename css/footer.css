@@ -1,13 +1,17 @@
 .footer {
   width: 100%;
+  height: 75px;
   clear: both;
   background-color: rgb(111, 105, 74);
 }
 
 .footer-nav {
-  vertical-align: baseline;
-  text-align: center;
-  line-height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 1.5%;
+  width: 100%;
+  background-color: rgb(111, 105, 74);
 }
 
 .footer-nav-item {
@@ -17,14 +21,21 @@
   display: inline-block;
 }
 
+.footer-nav-ul-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .footer-nav-link {
+  font-size: large;
   text-decoration: none;
   color: rgb(4, 4, 4);
   font-weight: bold;
 }
 
 @media (max-width: 640px) {
-  .footer-nav-item {
-    display: table-cell;
+  .footer-nav-ul-block {
+    flex-direction: column;
   }
 }

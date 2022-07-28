@@ -1,0 +1,12 @@
+.paralax-img {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  border-top: 8px solid rgb(102, 97, 73);
+  border-bottom: 8px solid rgb(102, 97, 73);
+  overflow: hidden;
+}
+
+.img1 {
+  width: 55%;
+}

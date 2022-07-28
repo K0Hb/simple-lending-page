@@ -4,7 +4,17 @@
   justify-content: center;
   padding: 1%;
   width: auto;
+  height: auto;
   margin: 4%;
+}
+
+
+.video {
+  height: 472px;
+  width: 840px;
+  border: 2;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .video-text h2 {
@@ -17,8 +27,21 @@
   margin: 2%;
 }
 
-@media (max-width: 640px) {
+
+@media (max-width: 1650px) {
+  .video {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media (max-width: 850px) {
   .container-video {
     flex-direction: column;
+    justify-content: center;
+  }
+
+  .video-text {
+    width: 100%;
   }
 }

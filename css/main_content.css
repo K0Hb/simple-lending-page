@@ -23,9 +23,8 @@
   padding: 1%;
 }
 
-.type-of-services h3 {
+.type-info-icon {
   margin: 2%;
-  padding: 3%;
 }
 
 .container-example-of-services {
@@ -91,6 +90,7 @@
 
   .type-of-services {
     flex-direction: column;
+    margin: 2%;
   }
 
   .container-example-of-services {
@@ -101,4 +101,5 @@
   .example-of-services {
     width: auto;
   }
+
 }
