@@ -97,13 +97,12 @@
       </div>
     </div>
   </div>
-  </div>
 
   <div class="paralax-img">
-    <img class="img1" src="public/paralax.jpg" alt="image">
+    <img class="workshop-photo" src="public/paralax.jpg" alt="workshop-photo">
     <script>
-      const img1 = document.getElementsByClassName('img1');
-      new simpleParallax(img1,{
+      const workshop_photo = document.getElementsByClassName('workshop-photo');
+      new simpleParallax(workshop_photo, {
         scale: 2.8,
         orientation: "down"
       });
@@ -212,14 +211,6 @@
       </ul>
     </div>
   </div>
-  <script>
-    const image = document.getElementsByClassName('thumbnail');
-    new simpleParallax('thumbnail', {
-      scale: 1.9,
-      orientation: "up"
-    });
-  </script>
-  <script src="js/simpleParallax.js"></script>
 </body>
 
 </html>
