@@ -90,6 +90,7 @@
 
   .type-of-services {
     flex-direction: column;
+    margin: 2%;
   }
 
   .container-example-of-services {
@@ -100,4 +101,5 @@
   .example-of-services {
     width: auto;
   }
+
 }
