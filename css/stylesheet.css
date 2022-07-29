@@ -4,7 +4,13 @@
 }
 
 body {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   display: flex;
   flex-direction: column;
   background-color: rgb(234, 227, 192);
+}
+
+.title {
+  text-align:center;
 }
