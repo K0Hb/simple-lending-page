@@ -17,8 +17,8 @@
     paralax = () => {
       const workshop_photo = document.getElementsByClassName('workshop-photo');
       new simpleParallax(workshop_photo, {
-        scale: 2.8,
-        orientation: "down"
+        delay: .6,
+        transition: 'cubic-bezier(0,0,0,1)'
       });
     }
   </script>
@@ -27,9 +27,16 @@
 </head>
 
 <body>
+
   <div class="intro">
-    <h1>ВЕЛОРЕМОНТ</h1>
-    <h2>На Конe</h2>
+    <img class="workshop-photo" src="public/intro-stock.jpg" alt="workshop-photo">
+    <span>
+      <h1>ВЕЛОРЕМОНТ</h1>
+      <h2>На Конe</h2>
+    </span>
+    <script>
+      paralax()
+    </script>
   </div>
 
   <div class="header">
@@ -107,12 +114,11 @@
     </div>
   </div>
 
-  <div class="paralax-img">
+  <!-- <div class="paralax-img">
+    <h1>ВЕЛОРЕМОНТ</h1>
+    <h2>На Конe</h2>
     <img class="workshop-photo" src="public/paralax.jpg" alt="workshop-photo">
-    <script>
-      paralax()
-    </script>
-  </div>
+  </div> -->
 
   <div id="example-of-services" class="container">
     <h2>Предложения</h2>
