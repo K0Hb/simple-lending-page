@@ -1,11 +1,21 @@
 .intro {
+  position: relative;
+  display: inline-block;
   font-family: 'IzhitsaRegular';
-  background-image: url('../public/intro.png');
   text-align: center;
   background-size: cover;
   width: auto;
-  height: 250px;
-  padding: 3%;
+}
+
+.intro span {
+    color: rgb(16, 12, 12);
+    border-radius: 2px;
+    position: absolute;
+    text-align: center;
+    left: 10%;
+    bottom: 60%;
+    font-size: 18px;
+    padding: 3px 5px;
 }
 
 .intro h1,
