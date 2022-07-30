@@ -44,4 +44,8 @@
   .video-text {
     width: 100%;
   }
+  .video {
+    width: auto;
+    height: 315px;
+  }
 }

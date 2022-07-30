@@ -20,5 +20,6 @@
 
 .intro h1,
 h2 {
+  width: auto;
   margin: 1%;
 }
